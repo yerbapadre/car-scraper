@@ -3,8 +3,8 @@ import carImage from "../assets/images/43.png";
 
 export default function Hero() {
     return (
-        <div className="max-w-7xl mx-auto py-24 px-8">
-            <div className="flex w-full">
+        <div className="max-w-7xl mx-auto py-4 md:py-24 px-8">
+            <div className="flex flex-col lg:flex-row w-full">
                 <div className="flex-1 flex flex-col gap-4">
                     <div className=" bg-red-100 text-red-400 text-sm px-3 py-0.75 rounded-full flex items-center gap-2 w-fit">
                         <Bell className="w-4 h-4 inline" />
@@ -12,12 +12,12 @@ export default function Hero() {
                             Never miss your dream car
                         </p>
                     </div>
-                    <h1 className="text-5xl font-bold leading-tight">
+                    <h1 className="text-3xl md:text-5xl font-bold leading-tight">
                         Get instant alerts for new Edmunds listings
                     </h1>
                     <p className="text-gray-500 text-lg">Stop refreshing websites every hour. Paste your search URL and we'll email you when a matching cars is posted.</p>
                     <div className="space-y-4">
-                        <div className="flex gap-4">
+                        <div className="flex gap-4 flex-col sm:flex-row">
                             <div className="relative flex-1">
                                 <input
                                     type="search"

@@ -6,7 +6,7 @@ export default function Pricing() {
             <h2 className="text-5xl font-bold text-white">Ready to find your perfect car?</h2>
             <p className="text-gray-100 text-lg">Join me, and maybe 2 others who found their dream vehicle on CarFindr. </p>
             <div className="space-y-4 max-w-md mx-auto mt-8">
-                <div className="flex gap-4">
+                <div className="flex gap-4 flex-col md:flex-row">
                     <div className="relative flex-1">
                         <input
                             type="search"

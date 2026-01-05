@@ -2,12 +2,12 @@ import { Clock, DollarSign, Lightbulb, Phone, Shield, TrendingUp } from "lucide-
 
 export default function Features() {
     return (
-        <div id="features" className="max-w-7xl mx-auto py-24 px-8 w-full text-center space-y-4">
+        <div id="features" className="max-w-7xl mx-auto py-12 md:py-24 px-8 w-full text-center space-y-4">
             <h2 className="text-5xl font-bold">Everything you need to find your next car</h2>
             <p className="text-gray-500 text-lg">
                 Powerful features designed to help you stay ahead of the competition
             </p>
-            <div className="grid grid-cols-3 gap-4 mt-12 text-left">
+            <div className="grid md:grid-cols-3 gap-4 mt-12 text-left">
                 <div className="bg-white p-4 rounded-lg border border-gray-200 space-y-2 p-6 space-y-4 relative">
                     <Clock className="w-8 h-8 bg-sky-200 text-sky-800 rounded-lg p-2 inline-block" />
                     <h3 className="text-xl font-bold">Real-time Monitoring</h3>
