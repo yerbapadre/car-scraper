@@ -6,7 +6,9 @@
 		"deploy": "wrangler deploy",
 		"dev": "wrangler dev --test-scheduled",
 		"start": "wrangler dev --test-scheduled",
-		"cf-typegen": "wrangler types"
+		"cf-typegen": "wrangler types",
+		"db:init": "wrangler d1 execute edmunds_users --local --file=./schema.sql",
+		"db:init:remote": "wrangler d1 execute edmunds_users --file=./schema.sql"
 	},
 	"devDependencies": {
 		"typescript": "^5.5.2",
